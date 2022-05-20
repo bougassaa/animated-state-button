@@ -1,0 +1,67 @@
+.state-button {
+    display: inline-block;
+    margin: 0;
+    background-color: #eeeeee;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    height: 20px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.state-button.primary {
+    background-color: #0d6efd;
+    color: #FFF;
+}
+
+.state-button.primary:hover {
+    background-color: #0b5ed7;
+}
+
+.state-button.danger {
+    background-color: #dc3545;
+    color: #FFF;
+}
+
+.state-button.danger:hover {
+    background-color: #bb2d3b;
+}
+
+.state-button ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    transition: .7s;
+    top: -8px;
+}
+
+.state-button ul li {
+    padding: 9px 0;
+    text-align: left;
+}
+
+.state-button ul li i {
+    position: relative;
+    top: 2px;
+    left: -3px;
+}
+
+.state-button * {
+    user-select: none;
+}
+
+.state-button:hover {
+    background-color: #e6e6e6;
+}
+
+.state-button:focus, .state-button:focus-within {
+    outline: solid 4px #9cbffe;
+}
+
+.state-button.clicked ul {
+    transform: translateY(calc(-50%));
+}
