@@ -9,6 +9,11 @@
     padding: 10px 14px;
     cursor: pointer;
     transition: background-color .5s;
+    font-family: Arial, Helvetica, Sans-serif, sans-serif;
+}
+
+.state-button:hover {
+    filter: brightness(0.9);
 }
 
 .state-button.primary {
