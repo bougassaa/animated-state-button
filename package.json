@@ -1,5 +1,5 @@
 {
-  "name": "state-button",
+  "name": "animated-state-button",
   "version": "1.0.0",
   "description": "Animated state button, to include in forms, add icon by state",
   "main": "script.js",
@@ -23,7 +23,10 @@
     "js state button",
     "animated button",
     "animated toggle",
-    "animated js toggle"
+    "animated js toggle",
+    "html state button",
+    "html toggle button",
+    "icon button"
   ],
   "author": "Amine Bougassaa",
   "license": "ISC",
