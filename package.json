@@ -8,10 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bougassaa/state-button.git"
+    "url": "git+https://github.com/bougassaa/animated-state-button.git"
   },
   "keywords": [
     "state-button",
+    "animated-state-button",
     "state button",
     "states button",
     "button states",
@@ -31,7 +32,7 @@
   "author": "Amine Bougassaa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bougassaa/state-button/issues"
+    "url": "https://github.com/bougassaa/animated-state-button/issues"
   },
-  "homepage": "https://github.com/bougassaa/state-button#readme"
+  "homepage": "https://github.com/bougassaa/animated-state-button#readme"
 }
