@@ -1,0 +1,34 @@
+{
+  "name": "state-button",
+  "version": "1.0.0",
+  "description": "Animated state button, to include in forms, add icon by state",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bougassaa/state-button.git"
+  },
+  "keywords": [
+    "state-button",
+    "state button",
+    "states button",
+    "button states",
+    "toggle",
+    "button toggle",
+    "js toggle",
+    "javascript toggle",
+    "javascript state button",
+    "js state button",
+    "animated button",
+    "animated toggle",
+    "animated js toggle",
+  ],
+  "author": "Amine Bougassaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bougassaa/state-button/issues"
+  },
+  "homepage": "https://github.com/bougassaa/state-button#readme"
+}
