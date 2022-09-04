@@ -11,30 +11,50 @@
             text-align: center;
             font-family: Arial, Helvetica, Sans-serif, sans-serif;
         }
+
+        .demo-block {
+            margin-bottom: 1rem;
+        }
     </style>
 </head>
 <body>
 <form action="">
-    <div role="button" class="state-button toto" data-name="project_risk" data-value="no_risk">
-        <ul>
-            <li data-color="#FFF" data-bg="#dc3545" data-icon="ri-star-line" data-value="risk">
-                Project at risk
-            </li>
-            <li data-color="#FFF" data-bg="#198754" data-icon="ri-star-fill" data-value="no_risk">
-                No risk
-            </li>
-        </ul>
+    <div class="demo-block">
+        <div role="button" class="state-button toto" data-name="project_risk" data-value="no_risk">
+            <ul>
+                <li data-color="#FFF" data-bg="#dc3545" data-icon="ri-star-line" data-value="risk">
+                    Project at risk
+                </li>
+                <li data-color="#FFF" data-bg="#198754" data-icon="ri-star-fill" data-value="no_risk">
+                    No risk
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <input type="submit" value="Envoyer">
+    <div class="demo-block container-example">
+        <div role="button" class="state-button foo" data-name="project_risk">
+            <ul>
+                <li data-color="#FFF" data-bg="#dc3545" data-icon="ri-star-line" data-value="risk">
+                    Project at risk
+                </li>
+                <li data-color="#FFF" data-bg="#198754" data-icon="ri-star-fill" data-value="no_risk">
+                    No risk
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <input type="submit" value="Envoyer">
+    </div>
 </form>
 
 <script src="script.js"></script>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        StateButton.cssSelector = 'toto';
-        StateButton.initStatesButtons();
+        StateButton.init();
     });
 </script>
 </body>

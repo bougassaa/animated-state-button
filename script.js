@@ -7,6 +7,7 @@ class StateButton {
     /** @type HTMLInputElement */
     input = null;
 
+    /** @type boolean */
     isFirstState = true;
 
     constructor(button) {
@@ -65,7 +66,7 @@ class StateButton {
 
     setInput() {
         let name = this.button.dataset.name;
-        let value = this.getButtonValue;
+        let value = this.getButtonValue();
 
         if (name) {
             let i = document.createElement('input');
@@ -120,8 +121,8 @@ class StateButton {
             this.getButtonValue().length === 0;
     }
 
-    static initStatesButtons(parent = document) {
-        parent.querySelectorAll(`.${this.cssSelector}`).forEach(button => {
+    static init(data = {parent: document, selector: this.cssSelector}) {
+        data.parent.querySelectorAll(`.${data.selector}`).forEach(button => {
             new StateButton(button);
         });
     }
