@@ -5,7 +5,9 @@ Animated state button, to include in forms, add icon by state
 Add the `script.js` and `style.css` files from the package to make the state-button work.
 
 ## Demo
-See demo here 👉 https://bougassaa.github.io/animated-state-button/
+Try demo here 👉 https://bougassaa.github.io/animated-state-button/
+
+![demo](state-button.gif)
 
 ## Usage
 Example of inclusion in HTML :
